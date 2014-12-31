@@ -1,0 +1,176 @@
+
+/*
+ * Store the main color and
+ * background color as variables
+ */
+body {
+  font-family: 'Arial';
+  background-color: #2b303b;
+  color: #414e5b;
+}
+p {
+  line-height: 1.8;
+  color: #4b5364;
+}
+img.logo{
+  width:295px;
+  padding-top: 40px;
+
+}
+header {
+  font-family: 'Arial';
+  padding: 50px 10px;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  background-color: #2b303b;
+}
+header p {
+  margin: 10px;
+  font-size: 16px;
+}
+.container {
+  width: 76%;
+  margin: 10px auto;
+  height: auto;
+}
+
+input {
+   margin: 0 auto;
+   background-color: #RGB(41, 45, 56);
+   border: solid 1px #1F242F;
+   width: 300px;
+   height: 40px;
+   border-radius: 5px !important;
+   color: #666666!important;
+   outline: none;
+   padding-left: 10px;
+
+}
+input.form-control {
+   color: #fff;
+   padding-left: 10px;
+}
+.form-group{
+  padding-top: 10px;
+  text-align: center;
+}
+.button_in{
+  width: 100%;
+  text-align:center;
+  padding-top: 10px;
+  margin-left: -113px;
+
+}
+button{
+  background-color: #40C27D;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+button:hover{
+  background-color: #38AB6E;
+  
+}
+
+.btn{
+  display: inline-block;
+
+  border-radius: 5px;
+  width: 80px;
+  height: 38px;
+  margin-left: 10px;
+}
+.btn focus{
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 80px;
+  height: 38px;
+  margin-left: 10px;
+}
+.container:after {
+  visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.color {
+  width: 100%;
+
+}
+.module {
+  width: 150px;
+  height: 210px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.M_color {
+  background-image: url(../img/none.svg);
+  width: 150px;
+  height: 160px;
+  z-index: 9999;
+  border-radius: 5px 5px 0px 0px;
+
+
+}
+.Delete{
+  padding-right: 10px;
+  padding-top: 10px;
+  float: right;
+  color: transparent;
+}
+.Delete:hover{
+  color: RGB(43, 48, 59);
+}
+
+.M_Numerical {
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 14px;
+  border-radius: 0px 0px 5px 5px;
+
+}
+.M_Numerical p {
+  color: #999999;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 12px;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+.colorsubmit{
+ text-align: center;
+}
+
+.user{
+  margin-top: 30px;
+}
+
+.login{
+  text-align: center;
+}
+
+.install{
+  text-align: center;
+}
+
+.colorsubmit button{
+  
+   background-color: #000;  
+}
+
+footer {
+  width: 100%;
+  margin: 50px auto;
+  padding-top: 5px;
+  font-size: 13px;
+}
+footer p{
+  text-align: center;
+}

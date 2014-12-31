@@ -1,0 +1,26 @@
+html
+    head
+        link(rel='stylesheet', href="./css/style.css")
+        script(src="./lib/jquery-1.10.2.min.js")
+        script(src="./lib/angular.min.js") 
+        script(src="./lib/angular.js") 
+        script(src="./lib/angular-resource.min.js")
+        script(src="./system/common/util.js")
+        script(src="./system/user/login.js")
+    body
+        header
+            img.logo(src="img/logo.svg" )
+            p -FN-Color, for Engineer & Designer
+            .user
+                .login(ng-app='user.login')
+                    form(ng-controller="login",redirect="/")
+                        .form-group
+                            input.form-control(type='text', name='email', placeholder='Email',ng-model='user.email')
+                        .form-group
+                            input.form-control(type='password', name='password', placeholder='Password',ng-model='user.password',ng-keyup='$event.which==13&&login()')
+                        .button_in
+                            button.btn(type='button',ng-click="login(user)") Sign in
+        footer
+         p FN-Color.Zerojs.io, powered by Zerojs
+
+
